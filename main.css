@@ -113,6 +113,9 @@ h2{
     margin: 60px 50px;
 }
 
+.second-icon{
+    text-align: center;
+}
 
 p{
     font-size: 1.2em;
@@ -131,13 +134,13 @@ p{
     background-color: white;
 }
 
-.content-text .flex{
+.content-text{
     display: flex;
     justify-content: space-around;
+    justify-content: flex-start;
     display: block;
     width: 65%;
-    margin: auto; 
-    text-align: left;
+    margin: auto;
 }
 
 .people{
@@ -205,7 +208,7 @@ p{
     color: white;
     align-items: center;
     text-align: center;
-    margin: 150px auto 10px auto;
+    margin: 70px auto 0 auto;
     padding: 100px;
 }
 
@@ -217,7 +220,7 @@ p{
 .last-foot{
     display: flex;
     justify-content: space-between;
-    margin-bottom: 60px;
+    margin: 30px 100px;
 }
 
 .footer-last{
@@ -234,6 +237,7 @@ ul li{
     display: inline-block;
     margin-left: 10px;
     margin-bottom: 10px;
+    color: #007bff;
 }
 
 .last-text{
